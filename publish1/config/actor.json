@@ -1,0 +1,18 @@
+﻿{
+    "IsCluster": false,
+    "HostName": "127.0.0.1",
+    "Port": 0,
+    "WorkerCount": 8,
+    "Benchmark":false,
+    "ConcurrencyLevel": 16,
+    "Seeds": [
+        {
+            "HostName": "127.0.0.1",
+            "Port": 32551
+        }
+    ],
+    "SingleHoconFile": "single.hocon",
+    "MasterHoconFile": "master.hocon",
+    "WorkerHoconFile": "worker.hocon",
+    "ManagerHoconFile": "manager.hocon"
+}
